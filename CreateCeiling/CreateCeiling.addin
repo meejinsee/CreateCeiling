@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CreateCeiling</Text>
+    <Description>Some description for CreateCeiling</Description>
+    <Assembly>CreateCeiling.dll</Assembly>
+    <FullClassName>CreateCeiling.Command</FullClassName>
+    <ClientId>6822b2bc-0db3-47e3-a8e7-370dea1fa3f9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreateCeiling</Name>
+    <Assembly>CreateCeiling.dll</Assembly>
+    <FullClassName>CreateCeiling.App</FullClassName>
+    <ClientId>ac535d72-2541-4a6f-863d-9152c4573490</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
